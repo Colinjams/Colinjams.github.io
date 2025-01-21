@@ -970,20 +970,20 @@ a:focus {
 .banner .btn {
     display: inline-block;
     text-decoration: none;
-    color: black; /* Text color */
+    color: #414141; /* Text color */
     background-color: white; /* Solid white background */
     padding: 10px 20px;
     border-radius: 5px; /* Optional: Rounded corners */
     font-size: 16px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
-    border: 1px solid black; /* Optional: Border for better visibility */
+    border: 1px solid #414141; /* Optional: Border for better visibility */
 }
 
 .banner .btn:hover {
     background-color: white; /* Maintain white background on hover */
-    color: black; /* Ensure text remains black */
-    border-color: black; /* Keep border consistent on hover */
+    color: b#414141; /* Ensure text remains black */
+    border-color: #414141; /* Keep border consistent on hover */
 }
 
 
