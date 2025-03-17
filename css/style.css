@@ -1426,6 +1426,8 @@ a:focus {
     transition: .5s;
 }
 
+/* Added this */
+
 .blog-video {
     max-width: 100%;
     height: auto; /* Let the height adjust to the aspect ratio */
@@ -1436,6 +1438,8 @@ a:focus {
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensures the full video is visible */
 }
+
+/* To this */
 
 .blog .blog-item:hover img {
     transform: scale(1.1);
