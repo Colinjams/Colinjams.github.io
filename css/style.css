@@ -1426,6 +1426,17 @@ a:focus {
     transition: .5s;
 }
 
+.blog-video {
+    max-width: 100%;
+    height: auto; /* Let the height adjust to the aspect ratio */
+}
+
+.blog-video video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the full video is visible */
+}
+
 .blog .blog-item:hover img {
     transform: scale(1.1);
 }
