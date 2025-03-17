@@ -475,6 +475,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: -45px 0 45px 0;
+    padding-top: 60px;
 }
 
 .about .col-lg-6 {
