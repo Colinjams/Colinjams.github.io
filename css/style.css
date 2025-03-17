@@ -1430,13 +1430,14 @@ a:focus {
 
 .blog-video {
     max-width: 100%;
-    height: auto; /* Let the height adjust to the aspect ratio */
+    height: 300px; /* Increased from 200px */
+    overflow: hidden;
 }
 
 .blog-video video {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensures the full video is visible */
+    height: 100%;
+    object-fit: cover;
 }
 
 /* To this */
